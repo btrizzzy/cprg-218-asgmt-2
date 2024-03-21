@@ -1,0 +1,72 @@
+.hero-image {
+  width: 100%;
+}
+
+
+
+.card {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+  width: fit-content;
+  margin: 1rem;
+  flex: 25% 0;
+}
+
+/* ACCORDION SECTION */
+.accordion-container {
+  background-color: #0e1f24;
+  color: #fff;
+}
+
+.accordion {
+  background-color: #f0dbb4;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #d75533;
+  opacity: 75%;
+}
+
+.panel {
+  padding: 0 18px;
+  color: #000;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.material-symbols-outlined {
+  vertical-align: text-bottom;
+}
+
+
+/* FOOTER SECTION */
+.footer-container {
+  display: grid;
+  grid-template-areas: 
+  "head head nav map map"
+  "head head nav col4 col5"
+  "copyright copyright copyright copyright copyright";
+  column-gap: 15px;
+  background-color: #465c2a;
+  width: 100%;
+  height: 250px;
+  padding: 1rem 1rem 1rem 1rem;
+  overflow: scroll;
+}
+
+.footer-left {
+  grid-area: head;
+}
+
+.footer-center {
+  grid-area: nav;
+}

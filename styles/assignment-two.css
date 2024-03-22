@@ -168,6 +168,18 @@ img, iframe {
     display: flexbox;
     flex-flow: column wrap;
   }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3, h4, h5 {
+    font-size: 1rem;
+  }
+  a.button {
+    font-size: medium;
+  }
 }
 
 /* Tablet (min-width: 768px): 2 × 4 (50% width cards, last card is full width) */

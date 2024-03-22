@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden; 
+}
+
 /* HERO SECTION */
 .hero-container {
   height: 100vh;
@@ -46,7 +50,7 @@
 .content-header {
   font-size: 2rem;
   color: #fbf0ca;
-  text-align: right;
+  text-align: left;
 }
 
 

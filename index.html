@@ -22,9 +22,9 @@
 <body>
 <!--Hero Banner-->
 <section class="hero-container">
-    <img class="hero-image" src="assets/Logo.png" alt="">
+    <img class="hero-image" src="assets/Logo.png" alt="bri's bakery in stylistic font and cute character">
   <div class="hero-text">
-    <h1>we're butter together</h1>
+    <h1 id="top">we're butter together</h1>
     <h2>crumb join us today</h2><br>
     <a class="button" href="#menu"><span class="material-symbols-outlined">
       shopping_cart
@@ -36,17 +36,17 @@
 
 <!--Content Section-->
 <section class="container content-container">
-  <div class="content-header">
-    <h2>about us</h2>
+  <ul class="content-header">
+    <li class="content-card-container"><h2>about us</h2>
     <p>just your friendly neighbourhood baked good enthusiasts</p>
-  </div>
+    </li>
   <!--Embedded Video-->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/XOA5FLzUAzA?si=ke1WcJHU_MwCG4e2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <div class="content-body"> 
-  <h2>our hours:</h2>
+  <li class="content-card-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/XOA5FLzUAzA?si=ke1WcJHU_MwCG4e2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </li>  
+  <li class="content-card-container"><h2>our hours:</h2>
     <p>M-F: 10:00-17:00<br>
     S-S: 10:00-15:00</p>
-    </div> 
+  </li>
 </section>
 
 <!--Card Section-->
@@ -87,7 +87,7 @@
         </div>
       </li>
       <li class="card">
-        <img src="/assets/RedVelvet.jpg" alt="Red velvet cookies on a wire rack">
+        <img src="assets/RedVelvet.jpg" alt="Red velvet cookies on a wire rack">
         <div class="card-content">
           <h3 class="subheader">
             cookie
@@ -149,21 +149,21 @@
 
 <!--Accordion-->
 <section class="container accordion-container">
-  <h2>FAQs</h2>
+  <h3>FAQs</h3>
   
   <button class="accordion">Are y'all good?</button>
   <div class="panel">
-    <p>Yes...</p>
+    <p class="paragraph">Yes...</p>
   </div>
 
   <button class="accordion">Are y'all expensive?</button>
   <div class="panel">
-    <p>No...</p>
+    <p class="paragraph">No...</p>
   </div>
 
   <button class="accordion">Can I eat these all the time?</button>
   <div class="panel">
-    <p>Of course...</p>
+    <p class="paragraph">Of course...</p>
   </div>
     </div>
 </section>
@@ -171,15 +171,17 @@
 <!--Footer-->
 <section class="footer-container">
   <div class="footer-left">
-    <h2>Briana Truong</h2>
-      <h3>Just your average young adult trying to sell you something on the Internet.</h3>
+    <h3>bri's bakery</h3>
+      <p>Just your average young adult trying to sell you something on the Internet.</p>
     </div>
     <div class="footer-center">
       <ul>
-        <li><a class="links" href="https://">About Us</a></li>
-        <li><a class="links" href="https://">Instagram</a></li>
+        <li><a class="links" href="#menu">menu</a></li>
+        <li><a class="links" href="https://">instagram</a></li>
+        <li><a class="links" href="#top">back to top</a></li>
     </ul>
     </div>
+    <div class="footer-right">
     <div class="copyright">
       <p id="currentyear"></p>
     </div>

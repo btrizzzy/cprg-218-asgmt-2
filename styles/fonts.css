@@ -3,6 +3,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.1;
+  color: #014652;
 }
 
 h1,
@@ -24,7 +25,7 @@ p {
 
 h1 {
   font-family: "Borel", sans-serif;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 600;
   color: #f0512e;
 }
@@ -37,7 +38,7 @@ h1 {
 
 h2 {
   font-family: "Zen Maru Gothic", serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
@@ -55,7 +56,6 @@ h3 {
 }
 
 h4, h5, h6 {
-
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -64,10 +64,21 @@ p {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
+  color: #fff;
 }
 
+p.paragraph {
+  color: #8d683d;
+}
 
 a.button {
+  padding: 0.5rem 1rem;
+  border: 1px outset #f0512e;
+  border-radius: 3px;
+  color: #8d683d;
+  background-color: #fbf0ca;
+  text-decoration: none;
+  font-family: "Bagel Fat One", system ui;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -75,4 +86,10 @@ a.button {
 a.links {
   text-decoration: none;
   color: white;
+}
+
+button.accordion {
+  font-family: "Zen Maru Gothic", serif;
+  font-size: 1rem;
+  font-weight: 500;
 }

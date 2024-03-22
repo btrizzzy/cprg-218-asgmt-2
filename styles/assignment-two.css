@@ -28,8 +28,6 @@
   vertical-align: text-bottom;
 }
 
-
-
 /* CONTENT SECTION */
 .content-container {
   justify-content: left;
@@ -143,12 +141,7 @@ img, iframe {
   text-align: right;
   padding: 1rem;
 }
-a.links {
-  color: #f0dbb4;
-}
-a.links:hover {
-  color: #014652;
-}
+
 
 .footer-right {
   grid-area: copyright;

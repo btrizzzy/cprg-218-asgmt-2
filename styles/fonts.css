@@ -42,6 +42,10 @@ h2 {
   font-weight: 500;
 }
 
+.faq {
+  text-align: center;
+}
+
 .bagel-fat one-regular {
   font-family: "Bagel Fat One", system-ui;
   font-weight: 400;
@@ -85,7 +89,10 @@ a.button {
 
 a.links {
   text-decoration: none;
-  color: white;
+  color: #f0dbb4;
+}
+a.links:hover {
+  color: #014652;
 }
 
 button.accordion {
